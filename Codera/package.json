@@ -1,0 +1,14 @@
+{
+  "name": "codera-battle",
+  "version": "1.0.0",
+  "description": "Code battle platform with real-time chat",
+  "main": "index.html",
+  "scripts": {
+    "start": "python serve.py",
+    "build": "echo 'No build needed for static app'",
+    "dev": "python serve.py"
+  },
+  "keywords": ["coding", "battle", "real-time", "chat"],
+  "author": "Your Name",
+  "license": "MIT"
+}

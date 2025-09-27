@@ -1,0 +1,43 @@
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Light mode overrides to map dark Tailwind classes to light equivalents */
+body.light { 
+    background-color: #f9fafb; 
+    color: #111827; 
+}
+
+body.light .bg-gray-900 { background-color: #f3f4f6 !important; }
+body.light .bg-gray-800 { background-color: #ffffff !important; }
+body.light .bg-gray-700 { background-color: #f3f4f6 !important; }
+body.light .bg-gray-600 { background-color: #e5e7eb !important; }
+body.light .text-gray-100, body.light .text-white { color: #111827 !important; }
+body.light .text-gray-200 { color: #111827 !important; }
+body.light .text-gray-300 { color: #6b7280 !important; }
+body.light .text-gray-400 { color: #6b7280 !important; }
+body.light .text-indigo-400 { color: #4f46e5 !important; }
+body.light .border-gray-600 { border-color: #e5e7eb !important; }
+body.light .border-indigo-700 { border-color: #c7d2fe !important; }
+body.light .hover\:bg-gray-700:hover { background-color: #e5e7eb !important; }
+body.light .hover\:bg-gray-600:hover { background-color: #e5e7eb !important; }
+body.light .bg-gray-900.bg-opacity-75 { background-color: rgba(0,0,0,0.35) !important; }
+body.light nav.bg-gray-800 { background-color: #ffffff !important; }
+body.light aside.bg-gray-800 { background-color: #ffffff !important; }
+body.light .custom-scrollbar::-webkit-scrollbar-track { background: #e5e7eb; }
+body.light .custom-scrollbar::-webkit-scrollbar-thumb { background: #9ca3af; }
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #4a5568;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #a0aec0;
+    border-radius: 4px;
+}
